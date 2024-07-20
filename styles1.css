@@ -150,7 +150,7 @@
 			/*background-color:coral;*/
 			box-shadow:10px 10px 30px black;
 			position:absolute;
-			left:50px;
+			left:11%;
 			z-index:2;
 			transition:left 0.5s, height 0.5s;
 		}
@@ -162,7 +162,7 @@
 			box-shadow:10px 10px 30px black;
 			height:150px;
 			/*background-color:greenyellow;*/
-			left:175px;
+			left:55%;
 			
 			transition:left 0.5s, height 0.5s;
 			position:absolute;
@@ -177,7 +177,7 @@
 			height:150px;
 			/*background-color:turquoise;*/
 			/*left:350px;*/
-			left:55%;
+			left:33%;
 			position:absolute;
 			z-index:1;
 			transition:left 0.5s, height 0.5s;
