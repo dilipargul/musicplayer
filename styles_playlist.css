@@ -73,7 +73,7 @@ nav div div a:hover {
   background-color: midnightblue;
   border-radius: 5px;
 
-  width: 3em;
+  width: 10em;
 }
 
 #search i,
@@ -162,6 +162,10 @@ h2 {
   }
 }
 @media screen and (max-width: 768px) {
+
+  #search input {
+    width: 3em;
+  }
   #fav {
     display: none;
   }
