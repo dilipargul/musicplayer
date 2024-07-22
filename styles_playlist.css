@@ -1,4 +1,4 @@
-lo	
+	
 	body{
 	margin:0;font-family: "Segoe UI", Arial, sans-serif;
 	background-image: linear-gradient(black, midnightblue);
@@ -13,7 +13,7 @@ lo
 		position:absolute;
 		left:100px;
 		top:200px;
-		overflow:hidden;
+		/*overflow:hidden;*/
 		border-radius:50%;
 		filter:drop-shadow(200px 200px 150px grey);
 		animation-name:dance;
@@ -69,11 +69,7 @@ lo
 			/*width:auto;*/
 			}
 			
-			#search input{background-color:rgba(15,11,15,1);border:none;
-				      background-color:midnightblue;
-					border-radius:5px;		
-					width:10em;
-				     }
+			#search input{background-color:rgba(15,11,15,1);border:none}
 		nav div{
 		display:flex;
 		padding:15px;
@@ -82,7 +78,7 @@ lo
 		}
 		
 		nav div div{		
-		padding:10px 5px;
+		padding:10px 15px;
 		align-items:center;
 		height:100%;
 		color:white;
@@ -96,10 +92,16 @@ lo
 		color:white;
 		}
 		
+		
 		#profile-image img{
 		border-radius:50%;
 		width:50px;
 		height:50px;
+		}
+		
+		#second div{
+			margin:0;			
+			
 		}
 		
 		#search input{	
@@ -391,12 +393,6 @@ lo
 	width:100%;}
 	}
 	@media screen and (max-width:768px) {
-		
-		#search input{	
-		
-		
-		width:3em;
-		}
 		#fav{
 			display:none;
 		}
