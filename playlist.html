@@ -1,0 +1,598 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+	<script src="https://kit.fontawesome.com/81520cefc1.js" crossorigin="anonymous"></script>
+    
+    <title>Playlist single page</title>
+	<style>
+		
+	
+	</style>
+	
+
+  </head>
+     <link rel="stylesheet" href="styles_playlist.css">
+
+  <body>
+				<div id = "circle1"></div>
+				
+				<section id = "nav">
+				
+		<nav>
+			
+				<div id = "first">
+					
+						<div><a href = ""><i class="fa-solid fa-music"></i></a>
+						</div>
+						<div ><a href = "index_backup.html"><h3 >Dragon</h3><h3><b>Music</b></a></h3>
+						</div>
+						<div id = "fav"><a href = ""><h3>Favorites</h3></a>
+						</div>
+					
+				</div>
+				
+				<div id = "second">
+						
+						<div id ="search"><a href = ""><i class="fa-solid fa-magnifying-glass"></i></a><input type= "text" place-holder="Search"><a href = ""><i class="fa-solid fa-microphone"></i></a>
+						</div>
+						
+						<div style="color:lightgrey;"><a href = ""><i class="fa-solid fa-bell"></i></a></div>
+						<div id = "profile-image"><img src = "images/gogh.png"></div>
+					
+				</div>
+			
+		</nav>
+	</section>
+				
+			
+		
+<!--body below nav left & right-->
+		<div class = "container">
+			<div class = "left">
+			<div id = "carousal">
+				<div id = "pl-main">
+					<div id = "pl-image"></div>
+					<div id = "pl-rightBox">
+						<div id = "pl-artist"><h2>Clint Mansel</h2><span><span>877</span><span>Followers</span></span></div>
+						<P id = "role">Serbian Music Composer</P>
+						<p>Clinton Darryl Mansell (/ˈmænsəl/; born 7 November 1963) is an English musician, singer, and composer. He served as the lead vocalist of alt-rock band Pop Will Eat Itself. After the band's dissolution, Mansell moved to the United States and embarked on a career as a film score composer. </p>
+						<div class = "pl-but" id = "play-all"></div> <div class = "pl-but" id = "follow"></div>
+						<div><span id = "tracks">128</span><span>Tracks</span> | <span id = "albums">18</span><span>Albums</span></div>
+					</div>
+				</div>
+				
+			</div>
+			
+			
+	
+					<div id = "queue-1"class = "queue"><!-- right playlist-->
+					
+						<h2>Queue</h2>
+						<ol id = "queue">
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div style="margin-right:4px;">01</div>
+									<div><img src = "images/treasure.jpg"></div>
+									<div><p>Treasure</p><p>David Helpling</p></div>
+							
+								</div>
+									<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+								</div>
+							</li>
+						
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div style="margin-right:4px;">02</div>
+									<div><img src = "images/meg1.jpg"></div>
+									<div><p>Shimmering Land</p><p>Meg Bowles</p></div>
+							
+								</div>
+									<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+								</div>
+							</li>
+						
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">03</div>
+									<div><img src = "images/meg2.jpg"></div>
+									<div><p>Ethereal Forest</p><p>Meg Bowles</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+								</div>
+							</li>
+						
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">04</div>
+									<div><img src = "images/jon1.jpg"></div>
+									<div><p>Star Gazer's Journey</p><p>Jon Serrie</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+								</div>
+							</li>
+						
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">05</div>
+									<div><img src = "images/helpling.jpg"></div>
+									<div><p>The Crossing</p><p>David Helpling</p></div>
+							
+								</div>
+									<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+								</div>
+							</li>
+						
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">06</div>
+									<div><img src = "images/6.jpg"></div>
+									<div><p>Altta</p><p>XX</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+								</div>
+							</li>
+						
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">07</div>
+									<div><img src = "images/4.jpg"></div>
+									<div><p>Oleo</p><p>Rufus</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+								</div>
+							</li>
+						
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">08</div>
+									<div><img src = "images/swades.jpg"></div>
+									<div><p>Swades</p><p>Rehman</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+							</li>
+						
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">09</div>
+									<div><img src = "images/statue.jpg"></div>
+									<div><p>Yuva</p><p>Rehman</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+								</div>
+							</li>
+						
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div style="margin-right:4px;">10</div>
+									<div><img src = "images/treasure.jpg"></div>
+									<div><p>Treasure</p><p>David Helpling</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+								</div>
+							</li>
+						
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div style="margin-right:4px;">11</div>
+									<div><img src = "images/meg1.jpg"></div>
+									<div><p>Shimmering Land</p><p>Meg Bowles</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+								</div>
+							</li>
+						
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">12</div>
+									<div><img src = "images/meg2.jpg"></div>
+									<div><p>Ethereal Forest</p><p>Meg Bowles</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+								</div>
+							</li>
+						
+							<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">13</div>
+									<div><img src = "images/jon1.jpg"></div>
+									<div><p>Star Gazer's Journey</p><p>Jon Serrie</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+								</div>
+							</li>
+						</ul>
+				</div>		
+				
+			</div>
+			
+			
+			
+			<!-- Right section i.e playlist queue-->
+			<div class = "right">
+			<h2>Similar Soundtracks</h2>
+				<div id = "queue-2"class = "queue"><!-- right playlist-->
+					<ol id = "queue">
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div style="margin-right:4px;">01</div>
+									<div><img src = "images/treasure.jpg"></div>
+									<div><p>Treasure</p><p>David Helpling</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div style="margin-right:4px;">02</div>
+									<div><img src = "images/meg1.jpg"></div>
+									<div><p>Shimmering Land</p><p>Meg Bowles</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">03</div>
+									<div><img src = "images/meg2.jpg"></div>
+									<div><p>Ethereal Forest</p><p>Meg Bowles</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">04</div>
+									<div><img src = "images/jon1.jpg"></div>
+									<div><p>Star Gazer's Journey</p><p>Jon Serrie</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">05</div>
+									<div><img src = "images/helpling.jpg"></div>
+									<div><p>The Crossing</p><p>David Helpling</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">06</div>
+									<div><img src = "images/6.jpg"></div>
+									<div><p>Altta</p><p>XX</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">07</div>
+									<div><img src = "images/4.jpg"></div>
+									<div><p>Oleo</p><p>Rufus</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">08</div>
+									<div><img src = "images/swades.jpg"></div>
+									<div><p>Swades</p><p>Rehman</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">09</div>
+									<div><img src = "images/statue.jpg"></div>
+									<div><p>Yuva</p><p>Rehman</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div style="margin-right:4px;">10</div>
+									<div><img src = "images/treasure.jpg"></div>
+									<div><p>Treasure</p><p>David Helpling</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div style="margin-right:4px;">11</div>
+									<div><img src = "images/meg1.jpg"></div>
+									<div><p>Shimmering Land</p><p>Meg Bowles</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">12</div>
+									<div><img src = "images/meg2.jpg"></div>
+									<div><p>Ethereal Forest</p><p>Meg Bowles</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">13</div>
+									<div><img src = "images/jon1.jpg"></div>
+									<div><p>Star Gazer's Journey</p><p>Jon Serrie</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+				
+				
+			
+			
+			
+				
+			</div>
+				
+			
+		</div>
+		
+			<div class = "right" id = "recent">
+			<h2>Recently Played</h2>
+				<div id = "queue-2"class = "queue"><!-- right playlist-->
+					<ol id = "queue">
+					
+					<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">01</div>
+									<div><img src = "images/jon1.jpg"></div>
+									<div><p>Star Gazer's Journey</p><p>Jon Serrie</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">02</div>
+									<div><img src = "images/helpling.jpg"></div>
+									<div><p>The Crossing</p><p>David Helpling</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">03</div>
+									<div><img src = "images/6.jpg"></div>
+									<div><p>Altta</p><p>XX</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">04</div>
+									<div><img src = "images/4.jpg"></div>
+									<div><p>Oleo</p><p>Rufus</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">05</div>
+									<div><img src = "images/swades.jpg"></div>
+									<div><p>Swades</p><p>Rehman</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div style="margin-right:4px;">06</div>
+									<div><img src = "images/treasure.jpg"></div>
+									<div><p>Treasure</p><p>David Helpling</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div style="margin-right:4px;">07</div>
+									<div><img src = "images/meg1.jpg"></div>
+									<div><p>Shimmering Land</p><p>Meg Bowles</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">08</div>
+									<div><img src = "images/meg2.jpg"></div>
+									<div><p>Ethereal Forest</p><p>Meg Bowles</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">09</div>
+									<div><img src = "images/statue.jpg"></div>
+									<div><p>Yuva</p><p>Rehman</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div style="margin-right:4px;">10</div>
+									<div><img src = "images/treasure.jpg"></div>
+									<div><p>Treasure</p><p>David Helpling</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div style="margin-right:4px;">11</div>
+									<div><img src = "images/meg1.jpg"></div>
+									<div><p>Shimmering Land</p><p>Meg Bowles</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">12</div>
+									<div><img src = "images/meg2.jpg"></div>
+									<div><p>Ethereal Forest</p><p>Meg Bowles</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+						<li><div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+								<div style="margin-right:4px;">13</div>
+									<div><img src = "images/jon1.jpg"></div>
+									<div><p>Star Gazer's Journey</p><p>Jon Serrie</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+							</div>
+						</li>
+						
+					</ul>
+				</div>
+				
+				
+			
+			
+			
+				
+			</div>
+		
+		<section id = "player">
+			<div id = "music-player">
+				<div class = "song-box qbox" id = "one">
+								<div class = "sbox qbx">
+									<div><img src = "images/2.jpg"></div>
+									<div><p>Takaba</p><p>bambino</p></div>
+							
+								</div>
+								<div class="info qi"><i class="fa-regular fa-heart"></i></div>
+				</div>
+				
+				<div id = "controls">
+					
+					<audio controls>
+  
+  <source src="bombino.mp3" type="audio/mpeg">
+					<div id = "keys">
+						<div>
+							<a href = ""><i class="fa-solid fa-shuffle"></i></a>
+							<a href = ""><i class="fa-solid fa-backward-step"></i></a> 
+							<a href = " "><i class="fa-solid fa-play"></i></a>
+							<a href = ""><i class="fa-solid fa-forward-step"></i></a> 
+							<a href = ""><i class="fa-solid fa-repeat"></i></a>
+						</div>
+					</div>
+					
+					<div id = "seek-section">
+						<div id = "time-played">1:11</div>
+						<div id = "seek-bar"><div id = "seek-bar-played"></div><div id = "seeker"></div> </div> 
+						<div id = "time-left">3:33</div>	
+					</div>
+				
+					
+				</div>
+				<div id = "volume">
+						
+						<div id = "keys-vol">
+						<div>
+							<a href = ""><i class="fa-solid fa-bars"></i></a>
+							<a href = ""><i class="fa-solid fa-desktop"></i></a> 
+							
+						</div>
+						
+							<div><a href = ""><i class="fa-solid fa-up-right-and-down-left-from-center"></i></a></div>
+						
+						</div>
+					
+					
+					</div>
+			</div>
+		</section>
+  </body>
+
+  <script src="script.js"></script>
+</html>
